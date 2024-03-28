@@ -159,6 +159,7 @@ background-color: black;
 }
 
 .articulo-categorias{
+    
    
 
 }
@@ -166,12 +167,21 @@ background-color: black;
 .contenedor-categorias{
     display: flex;
     justify-content: center;
+    max-width: 100%;
+}
+
+.categories{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .categories img{
-    height: 500px;
-    width: 500px;
-    margin: 4rem;
+    height: 400px;
+    width: 400px;
+    margin: 1rem;
     
     
 }
@@ -342,3 +352,41 @@ align-items: center;
     height: 700px;
 }
    
+
+.footer{
+    background-color: black;
+    max-width: 100%;
+}
+
+.footer-contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#color-white{
+    color: white;
+}
+
+.su-cuenta{
+    padding: 3rem;
+    margin-right: 200px;
+}
+
+.contacto{
+    padding: 3rem;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.redes{
+    padding: 3rem;
+    margin-left: 200px;
+
+}
+
+.medios-pagos{
+    padding: 2rem;
+    border-top: 2px solid #DEDEDE;
+}
